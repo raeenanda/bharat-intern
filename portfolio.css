@@ -1,0 +1,62 @@
+body {
+  
+    background: linear-gradient(to right, rgb(235, 208, 221), rgb(255, 208, 255),rgb(255, 173, 214));
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+   
+  
+    
+  }
+  header {
+    text-align: center;
+    padding: 2rem 0;
+    border: 2px solid black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+
+   
+   
+  }
+  nav a {
+    text-decoration: none;
+    color: #252424;
+    margin: 0 2rem;
+    padding: .5rem 1rem;
+    border: 1px double rgb(255, 199, 255);
+    border-radius: 50%;
+    background-color: rgb(253, 165, 253);
+    transition: all 0.3s ease;
+  }
+  nav a:hover {
+    border:1px #333;
+  }
+  .info{
+    border: 2px groove black;
+  }
+  h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  section div{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .about,
+  .skills,
+  .projects,
+  .certifications,
+  .languages,
+  .contact {
+    margin: 4rem 0;
+    text-align: center;
+  
+  }
+  footer {
+    text-align: center;
+    padding: 4rem 0;
+  }
